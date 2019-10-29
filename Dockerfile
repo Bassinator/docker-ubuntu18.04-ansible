@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04 AS bassualdo/ubuntu18.04-ansible
 LABEL maintainer="Bastian Bukatz"
-
+ 
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
