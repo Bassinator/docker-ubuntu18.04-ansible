@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 AS bassualdo/ubuntu18.04-ansible
+FROM ubuntu:18.04
 LABEL maintainer="Bastian Bukatz"
  
 # Install dependencies.
