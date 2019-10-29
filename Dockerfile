@@ -4,6 +4,7 @@ LABEL maintainer="Bastian Bukatz"
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+       vi \
        apt-utils \
        python-pip \
        python-setuptools \
